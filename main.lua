@@ -1689,7 +1689,7 @@ render_attract_howto = function()
 end
 render_battle_normal = function()
 	love.graphics.setColor(1,1,1,1)
-	love.graphics.draw(tetrisplusassets.taisen.bg, 0, 0)
+	love.graphics.draw(tetrisplusassets.taisen.bg, -640, 0)
 	drawplayer_battlenormalleft(p1,160,240+32,1)
 	drawplayer_battlenormalright(p2,480,240+32,1)
 	if blockframeticks1 < 12 then
